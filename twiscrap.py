@@ -5,9 +5,9 @@ from tweepy import Stream
 
 
 
-access_token = "970681031941607424-S6vv4Jr32ydIiUaqEq6cZGPObsUJYiH"
+access_token = "<Enter your access token>"
 access_token_secret = "<Enter your token secret>"
-consumer_key ="oEitQBoMR8jmbywLXYp0rKVpi"
+consumer_key ="<Enter your consumer key>"
 consumer_secret = "<Enter your consumer secret>"
 
 class StdOutListener(StreamListener):
