@@ -6,9 +6,9 @@ from tweepy import Stream
 
 
 access_token = "970681031941607424-S6vv4Jr32ydIiUaqEq6cZGPObsUJYiH"
-access_token_secret = "S1mkYstz2PUKvUc3pTONdfFLmCMjLefzW21cRGQ1icdAW"
+access_token_secret = "<Enter your token secret>"
 consumer_key ="oEitQBoMR8jmbywLXYp0rKVpi"
-consumer_secret = "GXFIEHWyyctRUC4RNPZLaUf4U7iogBSyQBbR4xZn6csmNwPhtE"
+consumer_secret = "<Enter your consumer secret>"
 
 class StdOutListener(StreamListener):
 	def on_data(self, data):
